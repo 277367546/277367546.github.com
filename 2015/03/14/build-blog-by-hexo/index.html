@@ -116,7 +116,12 @@ Hexo 的中文官网：http://hexo.io/zh-cn/
 
 Hexo 是一个快速、简洁且高效的博客框架">
 <meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489475108.png">
-<meta property="og:updated_time" content="2017-03-14T11:04:26.000Z">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489478376.png">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489480395.png">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489481670.png">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489481917.png">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489488858.png">
+<meta property="og:updated_time" content="2017-03-14T11:11:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac使用hexo搭建博客部署在github上">
 <meta name="twitter:description" content="Hexo是什么？
@@ -429,16 +434,87 @@ Hexo 是一个快速、简洁且高效的博客框架">
 </ul>
 <h2 id="Hexo初始化"><a href="#Hexo初始化" class="headerlink" title="Hexo初始化"></a>Hexo初始化</h2><ul>
 <li>进入需要初始化的文件夹，我这里为/Work/hexo，执行如下命令：<ul>
-<li>1、<figure class="highlight plain"><figcaption><span>/Work/hexo```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">	* 2、`hexo init`</div><div class="line">	* 3、最后执行：`cnpm install`，有显示 WARN 也不用管</div><div class="line">* 现在我们启动 hexo 本地服务，看下默认的博客是怎样的，命令：hexo server</div><div class="line">现在用浏览器访问：http://localhost:4000/，效果如下图</div><div class="line"></div><div class="line">&lt;img src=&quot;http://ocr69msnq.bkt.clouddn.com/1489478376.png&quot; width=&quot;1410&quot; height=&quot;856&quot; /&gt;</div><div class="line"></div><div class="line">* 如果要停止 hexo 服务：在 Terminal 下按 Ctrl + C 即可</div><div class="line"></div><div class="line"></div><div class="line">## 选用其他主题</div><div class="line">由于默认主题太大众了，所以现在我们换个主题。</div><div class="line"></div><div class="line">你可以去这里找主题：</div><div class="line"></div><div class="line">hexo-theme：</div><div class="line">&lt;https://hexo.io/themes/&gt;</div><div class="line"></div><div class="line">hexo-github-theme-list：</div><div class="line">&lt;https://github.com/hexojs/hexo/wiki/Themes&gt;</div><div class="line"></div><div class="line">* 有那些好看的hexo主题？：</div><div class="line">	* &lt;http://www.zhihu.com/question/24422335&gt;</div><div class="line"></div><div class="line">* 我这里选择的 hexo-theme-next：&lt;https://github.com/iissnan/hexo-theme-next&gt;</div><div class="line"></div><div class="line">现在假设你跟我要用的模板是一样：</div><div class="line">还是让 Terminal 保持在 /Work/hexo/themes 目录下，然后输入命令：`git clone https://github.com/iissnan/hexo-theme-next.git`</div><div class="line"></div><div class="line">这样就在 /Work/hexo/themes 目录下生成了一个 hexo-theme-next 文件夹，里面有我们刚刚 clone 下来的主题内容。</div><div class="line"></div><div class="line"></div><div class="line">如果以后你不自己修改这个主题的话，可以考虑经常更新下作者的更新内容：</div></pre></td></tr></table></figure></li>
+<li>1、 <code>cd /Work/hexo</code></li>
+<li>2、 <code>hexo init</code></li>
+<li>3、最后执行：<code>cnpm install</code>，有显示 WARN 也不用管</li>
+</ul>
+</li>
+<li>现在我们启动 hexo 本地服务，看下默认的博客是怎样的，命令：hexo server<br>现在用浏览器访问：<a href="http://localhost:4000/，效果如下图" target="_blank" rel="external">http://localhost:4000/，效果如下图</a></li>
+</ul>
+<p><img src="http://ocr69msnq.bkt.clouddn.com/1489478376.png" width="1410" height="856"></p>
+<ul>
+<li>如果要停止 hexo 服务：在 Terminal 下按 Ctrl + C 即可</li>
+</ul>
+<h2 id="选用其他主题"><a href="#选用其他主题" class="headerlink" title="选用其他主题"></a>选用其他主题</h2><p>由于默认主题太大众了，所以现在我们换个主题。</p>
+<p>你可以去这里找主题：</p>
+<p>hexo-theme：<br><a href="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a></p>
+<p>hexo-github-theme-list：<br><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></p>
+<ul>
+<li><p>有那些好看的hexo主题？：</p>
+<ul>
+<li><a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">http://www.zhihu.com/question/24422335</a></li>
+</ul>
+</li>
+<li><p>我这里选择的 hexo-theme-next：<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a></p>
+</li>
+</ul>
+<p>现在假设你跟我要用的模板是一样：<br>还是让 Terminal 保持在 /Work/hexo/themes 目录下，然后输入命令： <code>git clone https://github.com/iissnan/hexo-theme-next.git</code></p>
+<p>这样就在 /Work/hexo/themes 目录下生成了一个 hexo-theme-next 文件夹，里面有我们刚刚 clone 下来的主题内容。</p>
+<p>如果以后你不自己修改这个主题的话，可以考虑经常更新下作者的更新内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /Work/hexo/themes/hexo-theme-next </div><div class="line">git pull origin master</div></pre></td></tr></table></figure>
+<p>下载好主题文件之后，我们现在要修改 /Work/hexo 目录下的项目配置文件：_config.yml，把对应的主题目录名改下，编辑如下图。</p>
+<p><img src="http://ocr69msnq.bkt.clouddn.com/1489480395.png" width="558" height="486"></p>
+<ul>
+<li><p>更改主题目录名后，我们还要重新生成主题静态内容：</p>
+<ul>
+<li>继续在 Terminal 中输入命令：<br>重新生成静态博客的所有内容：<code>hexo generate</code></li>
+<li>重启 hexo 本地服务：<code>hexo server</code></li>
+<li><p>重新访问：<a href="http://localhost:4000/，效果如下图" target="_blank" rel="external">http://localhost:4000/，效果如下图</a> </p>
+<p><img src="http://ocr69msnq.bkt.clouddn.com/1489481670.png" width="448" height="300"></p>
+</li>
 </ul>
 </li>
 </ul>
-<p>cd /Work/hexo/themes/hexo-theme-next<br>git pull origin master<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">下载好主题文件之后，我们现在要修改 /Work/hexo 目录下的项目配置文件：_config.yml，把对应的主题目录名改下，编辑如下图。</div><div class="line"></div><div class="line">&lt;img src=&quot;http://ocr69msnq.bkt.clouddn.com/1489480395.png&quot; width=&quot;558&quot; height=&quot;486&quot; /&gt;</div><div class="line"></div><div class="line">* 更改主题目录名后，我们还要重新生成主题静态内容：</div><div class="line">	* 继续在 Terminal 中输入命令：</div><div class="line">重新生成静态博客的所有内容：`hexo generate`</div><div class="line">	* 重启 hexo 本地服务：`hexo server`</div><div class="line">	* 重新访问：http://localhost:4000/，效果如下图 </div><div class="line"></div><div class="line">	&lt;img src=&quot;http://ocr69msnq.bkt.clouddn.com/1489481670.png&quot; width=&quot;448&quot; height=&quot;300&quot; /&gt;</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">## 创建 Github pages 并 SSH 授权</div><div class="line">[原文链接(此处引用youmeek的方法)</div><div class="line">](http://code.youmeek.com/2016/02/28/2016/02/Hexo/)</div><div class="line"></div><div class="line">* 现在假设你已经有一个 Gtihub 账号，你还需要一个特别的仓库，特别在仓库名就是你的 Github 账号登录名，比如我的用户名是：judasn，那我要创建的仓库名字完整滴填写是：judasn.github.io，具体效果如下图。</div><div class="line"> &lt;img src=&quot;http://ocr69msnq.bkt.clouddn.com/1489481917.png&quot; width=&quot;1504&quot; height=&quot;1154&quot; /&gt;</div><div class="line"></div><div class="line">* 1、在终端，也就是Terminal上输入命令：</div><div class="line">`ssh-keygen`有提示直接按回车即可。</div><div class="line">* 2、`cd ~/.ssh`</div><div class="line">* 3、这个时候会看到该目录下有文件id_rsa.pub 复制里面的内容。</div><div class="line">* 4、访问：&lt;https://github.com/settings/ssh&gt;，添加新秘钥，效果如下图</div><div class="line">Title：自己随便取</div><div class="line">Key：把刚刚复制的都粘贴进来</div><div class="line"></div><div class="line">&lt;img src=&quot;http://ocr69msnq.bkt.clouddn.com/1489488858.png&quot; width=&quot;1398&quot; height=&quot;876&quot; /&gt;</div><div class="line">## 把本地的博客内容同步到 Github 上</div><div class="line">* 要把本地的静态博客同步到 Github，我们还需要先安装两个跟部署相关的 hexo 插件：</div><div class="line">继续在 Terminal 中输入：</div></pre></td></tr></table></figure></p>
-<p>cnpm install hexo -server –save<br>cnpm install hexo-deployer-git –save<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">编辑全局 hexo 的配置文件：_config.yml</div><div class="line"></div><div class="line">官网对此配置的介绍：https://hexo.io/zh-cn/docs/configuration.html</div><div class="line">我自己的编辑内容初稿（你需要认真看的是含有中文注释的内容）：</div></pre></td></tr></table></figure></p>
-<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><h2 id="这里是重点，这里是修改发布地址，因为我们前面已经加了-SSH-密钥信息在-Github-设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟-Github-做同步。"><a href="#这里是重点，这里是修改发布地址，因为我们前面已经加了-SSH-密钥信息在-Github-设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟-Github-做同步。" class="headerlink" title="这里是重点，这里是修改发布地址，因为我们前面已经加了 SSH 密钥信息在 Github 设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟 Github 做同步。"></a>这里是重点，这里是修改发布地址，因为我们前面已经加了 SSH 密钥信息在 Github 设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟 Github 做同步。</h2><h2 id="需要注意的是这里的-repo-采用的是-ssh-的地址，而不是-https-的。分支我们默认采用-master-分支，以后你翅膀硬了要换其他也无所谓。"><a href="#需要注意的是这里的-repo-采用的是-ssh-的地址，而不是-https-的。分支我们默认采用-master-分支，以后你翅膀硬了要换其他也无所谓。" class="headerlink" title="需要注意的是这里的 repo 采用的是 ssh 的地址，而不是 https 的。分支我们默认采用 master 分支，以后你翅膀硬了要换其他也无所谓。"></a>需要注意的是这里的 repo 采用的是 ssh 的地址，而不是 https 的。分支我们默认采用 master 分支，以后你翅膀硬了要换其他也无所谓。</h2><h2 id="Docs-https-hexo-io-docs-deployment-html"><a href="#Docs-https-hexo-io-docs-deployment-html" class="headerlink" title="Docs: https://hexo.io/docs/deployment.html"></a>Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">https://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>  type: git<br>  repo: git@github.com:judasn/judasn.github.io.git<br>  branch: master</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">* 编辑全局配置后我们需要重新部署：</div><div class="line">	* 继续在 Git Bash 中输入命令：</div><div class="line">	* 先清除掉已经生成的旧文件：`hexo clean`</div><div class="line">	* 再生成一次静态文件：`hexo generate`</div><div class="line">	* 在本地预览下：`hexo server`</div><div class="line">	* 本地没问题之后，Ctrl + C 停掉本地预览。</div><div class="line">	* 在部署到 Github 之前，需要先确定你是否已经用过 Git，如果你没用过，则此时你需要做如下设置，在 Git Bash 中依次输入下面两个命令：</div><div class="line">	* `git config --global user.email &quot;你的 Github 注册邮箱地址&quot;`</div><div class="line">	* `git config --global user.name &quot;你的 Github 用户名&quot;`</div><div class="line"></div><div class="line">* 通过上面几次流程我们也就可以总结：以后，每次发表新文章要部署都按这样的流程来：</div></pre></td></tr></table></figure>
-<p>hexo clean<br>hexo generate<br>hexo deploy<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">* 也因为这几个命令太频繁了，所以又有了精简版的命令：</div></pre></td></tr></table></figure></p>
-<p>hexo clean == hexo clean<br>hexo g == hexo generate<br>hexo s == hexo server<br>hexo d == hexo deploy<br>```</p>
+<h2 id="创建-Github-pages-并-SSH-授权"><a href="#创建-Github-pages-并-SSH-授权" class="headerlink" title="创建 Github pages 并 SSH 授权"></a>创建 Github pages 并 SSH 授权</h2><p><a href="http://code.youmeek.com/2016/02/28/2016/02/Hexo/" target="_blank" rel="external">原文链接(此处引用youmeek的方法)
+</a></p>
+<ul>
+<li><p>现在假设你已经有一个 Gtihub 账号，你还需要一个特别的仓库，特别在仓库名就是你的 Github 账号登录名，比如我的用户名是：judasn，那我要创建的仓库名字完整滴填写是：judasn.github.io，具体效果如下图。<br><img src="http://ocr69msnq.bkt.clouddn.com/1489481917.png" width="1504" height="1154"></p>
+</li>
+<li><p>1、在终端，也就是Terminal上输入命令：<br><code>ssh-keygen</code>有提示直接按回车即可。</p>
+</li>
+<li>2、<code>cd ~/.ssh</code></li>
+<li>3、这个时候会看到该目录下有文件id_rsa.pub 复制里面的内容。</li>
+<li>4、访问：<a href="https://github.com/settings/ssh" target="_blank" rel="external">https://github.com/settings/ssh</a>，添加新秘钥，效果如下图<br>Title：自己随便取<br>Key：把刚刚复制的都粘贴进来</li>
+</ul>
+<p><img src="http://ocr69msnq.bkt.clouddn.com/1489488858.png" width="1398" height="876"></p>
+<h2 id="把本地的博客内容同步到-Github-上"><a href="#把本地的博客内容同步到-Github-上" class="headerlink" title="把本地的博客内容同步到 Github 上"></a>把本地的博客内容同步到 Github 上</h2><ul>
+<li>要把本地的静态博客同步到 Github，我们还需要先安装两个跟部署相关的 hexo 插件：<br>继续在 Terminal 中输入：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cnpm install hexo -server --save</div><div class="line">cnpm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p>编辑全局 hexo 的配置文件：_config.yml</p>
+<p>官网对此配置的介绍：<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/configuration.html</a><br>我自己的编辑内容初稿（你需要认真看的是含有中文注释的内容）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## 这里是重点，这里是修改发布地址，因为我们前面已经加了 SSH 密钥信息在 Github 设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟 Github 做同步。</div><div class="line">## 需要注意的是这里的 repo 采用的是 ssh 的地址，而不是 https 的。分支我们默认采用 master 分支，以后你翅膀硬了要换其他也无所谓。</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:judasn/judasn.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<ul>
+<li><p>编辑全局配置后我们需要重新部署：</p>
+<ul>
+<li>继续在 Git Bash 中输入命令：</li>
+<li>先清除掉已经生成的旧文件：<code>hexo clean</code></li>
+<li>再生成一次静态文件：<code>hexo generate</code></li>
+<li>在本地预览下：<code>hexo server</code></li>
+<li>本地没问题之后，Ctrl + C 停掉本地预览。</li>
+<li>在部署到 Github 之前，需要先确定你是否已经用过 Git，如果你没用过，则此时你需要做如下设置，在 Git Bash 中依次输入下面两个命令：</li>
+<li><code>git config --global user.email &quot;你的 Github 注册邮箱地址&quot;</code></li>
+<li><code>git config --global user.name &quot;你的 Github 用户名&quot;</code></li>
+</ul>
+</li>
+<li><p>通过上面几次流程我们也就可以总结：以后，每次发表新文章要部署都按这样的流程来：</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+<ul>
+<li>也因为这几个命令太频繁了，所以又有了精简版的命令：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean == hexo clean</div><div class="line">hexo g == hexo generate</div><div class="line">hexo s == hexo server</div><div class="line">hexo d == hexo deploy</div></pre></td></tr></table></figure>
 <h2 id="域名绑定待续。。。。"><a href="#域名绑定待续。。。。" class="headerlink" title="域名绑定待续。。。。"></a>域名绑定待续。。。。</h2>
       
     </div>
@@ -607,7 +683,7 @@ Hexo 是一个快速、简洁且高效的博客框架">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo是什么？"><span class="nav-number">1.</span> <span class="nav-text">Hexo是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用-Hexo"><span class="nav-number">2.</span> <span class="nav-text">为什么要用 Hexo?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本文环境："><span class="nav-number">3.</span> <span class="nav-text">本文环境：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于域名绑定"><span class="nav-number">4.</span> <span class="nav-text">关于域名绑定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js-源设置"><span class="nav-number">5.</span> <span class="nav-text">Node.js 源设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Hexo-框架"><span class="nav-number">6.</span> <span class="nav-text">安装 Hexo 框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo初始化"><span class="nav-number">7.</span> <span class="nav-text">Hexo初始化</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Deployment"><span class="nav-number"></span> <span class="nav-text">Deployment</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这里是重点，这里是修改发布地址，因为我们前面已经加了-SSH-密钥信息在-Github-设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟-Github-做同步。"><span class="nav-number">1.</span> <span class="nav-text">这里是重点，这里是修改发布地址，因为我们前面已经加了 SSH 密钥信息在 Github 设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟 Github 做同步。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需要注意的是这里的-repo-采用的是-ssh-的地址，而不是-https-的。分支我们默认采用-master-分支，以后你翅膀硬了要换其他也无所谓。"><span class="nav-number">2.</span> <span class="nav-text">需要注意的是这里的 repo 采用的是 ssh 的地址，而不是 https 的。分支我们默认采用 master 分支，以后你翅膀硬了要换其他也无所谓。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docs-https-hexo-io-docs-deployment-html"><span class="nav-number">3.</span> <span class="nav-text">Docs: https://hexo.io/docs/deployment.html</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名绑定待续。。。。"><span class="nav-number">4.</span> <span class="nav-text">域名绑定待续。。。。</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo是什么？"><span class="nav-number">1.</span> <span class="nav-text">Hexo是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用-Hexo"><span class="nav-number">2.</span> <span class="nav-text">为什么要用 Hexo?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本文环境："><span class="nav-number">3.</span> <span class="nav-text">本文环境：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于域名绑定"><span class="nav-number">4.</span> <span class="nav-text">关于域名绑定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js-源设置"><span class="nav-number">5.</span> <span class="nav-text">Node.js 源设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Hexo-框架"><span class="nav-number">6.</span> <span class="nav-text">安装 Hexo 框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo初始化"><span class="nav-number">7.</span> <span class="nav-text">Hexo初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选用其他主题"><span class="nav-number">8.</span> <span class="nav-text">选用其他主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建-Github-pages-并-SSH-授权"><span class="nav-number">9.</span> <span class="nav-text">创建 Github pages 并 SSH 授权</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#把本地的博客内容同步到-Github-上"><span class="nav-number">10.</span> <span class="nav-text">把本地的博客内容同步到 Github 上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名绑定待续。。。。"><span class="nav-number">11.</span> <span class="nav-text">域名绑定待续。。。。</span></a></li></ol></div>
             
 
           </div>

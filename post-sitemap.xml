@@ -7,16 +7,16 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2015/03/13/hello-world/</loc>
-        <lastmod>2017-03-14T11:07:42.000Z</lastmod>
+        <loc>http://yoursite.com/2015/03/14/build-blog-by-hexo/</loc>
+        <lastmod>2017-03-14T11:11:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://yoursite.com/2015/03/14/build-blog-by-hexo/</loc>
-        <lastmod>2017-03-14T11:04:26.000Z</lastmod>
+        <loc>http://yoursite.com/2015/03/13/hello-world/</loc>
+        <lastmod>2017-03-14T11:07:42.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
