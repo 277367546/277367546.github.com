@@ -7,8 +7,24 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2017/03/14/yingwen/</loc>
+        <lastmod>2017-03-14T06:52:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2017/03/14/%E4%BD%BF%E7%94%A8git%E5%BC%80%E5%8F%91/</loc>
+        <lastmod>2017-03-14T06:52:24.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2017/03/12/hello-world/</loc>
-        <lastmod>2017-03-13T03:09:07.000Z</lastmod>
+        <lastmod>2017-03-14T04:11:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
