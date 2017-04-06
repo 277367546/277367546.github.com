@@ -121,7 +121,9 @@ Hexo 是一个快速、简洁且高效的博客框架">
 <meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489481670.png">
 <meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489481917.png">
 <meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1489488858.png">
-<meta property="og:updated_time" content="2017-03-14T11:11:26.000Z">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1491441532.png">
+<meta property="og:image" content="http://ocr69msnq.bkt.clouddn.com/1491441840.png">
+<meta property="og:updated_time" content="2017-04-06T01:25:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac使用hexo搭建博客部署在github上">
 <meta name="twitter:description" content="Hexo是什么？
@@ -515,7 +517,15 @@ Hexo 是一个快速、简洁且高效的博客框架">
 <li>也因为这几个命令太频繁了，所以又有了精简版的命令：</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean == hexo clean</div><div class="line">hexo g == hexo generate</div><div class="line">hexo s == hexo server</div><div class="line">hexo d == hexo deploy</div></pre></td></tr></table></figure>
-<h2 id="域名绑定待续。。。。"><a href="#域名绑定待续。。。。" class="headerlink" title="域名绑定待续。。。。"></a>域名绑定待续。。。。</h2>
+<h2 id="域名绑定"><a href="#域名绑定" class="headerlink" title="域名绑定"></a>域名绑定</h2><ul>
+<li>首先我们要一个 CNAME 文件（文件名叫 CNAME，没有文件后缀的），把该文件放在 E:\git_work_space\hexo\source 目录下，以后一些需要放在根目录的资源文件都可以放这里。如果你找不到这样的文件可以到youmeek的项目上下载：<a href="https://github.com/judasn/judasn.github.io" target="_blank" rel="external">https://github.com/judasn/judasn.github.io</a><ul>
+<li>CNAME 上的内容需要写你具体要绑定的域名信息，比如我是：blog.byyan.com，具体你可以参考下图：<br><img src="http://ocr69msnq.bkt.clouddn.com/1491441532.png" width="1152" height="796"></li>
+<li>然后到自己的域名管理后台填写CNAME记录<br><img src="http://ocr69msnq.bkt.clouddn.com/1491441840.png" width="2054" height="158"></li>
+<li>设置好之后，等几分钟就可以通过<a href="http://blog.byyan.com访问这个页面了" target="_blank" rel="external">http://blog.byyan.com访问这个页面了</a></li>
+</ul>
+</li>
+</ul>
+
       
     </div>
 
@@ -683,7 +693,7 @@ Hexo 是一个快速、简洁且高效的博客框架">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo是什么？"><span class="nav-number">1.</span> <span class="nav-text">Hexo是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用-Hexo"><span class="nav-number">2.</span> <span class="nav-text">为什么要用 Hexo?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本文环境："><span class="nav-number">3.</span> <span class="nav-text">本文环境：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于域名绑定"><span class="nav-number">4.</span> <span class="nav-text">关于域名绑定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js-源设置"><span class="nav-number">5.</span> <span class="nav-text">Node.js 源设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Hexo-框架"><span class="nav-number">6.</span> <span class="nav-text">安装 Hexo 框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo初始化"><span class="nav-number">7.</span> <span class="nav-text">Hexo初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选用其他主题"><span class="nav-number">8.</span> <span class="nav-text">选用其他主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建-Github-pages-并-SSH-授权"><span class="nav-number">9.</span> <span class="nav-text">创建 Github pages 并 SSH 授权</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#把本地的博客内容同步到-Github-上"><span class="nav-number">10.</span> <span class="nav-text">把本地的博客内容同步到 Github 上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名绑定待续。。。。"><span class="nav-number">11.</span> <span class="nav-text">域名绑定待续。。。。</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo是什么？"><span class="nav-number">1.</span> <span class="nav-text">Hexo是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用-Hexo"><span class="nav-number">2.</span> <span class="nav-text">为什么要用 Hexo?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本文环境："><span class="nav-number">3.</span> <span class="nav-text">本文环境：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于域名绑定"><span class="nav-number">4.</span> <span class="nav-text">关于域名绑定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js-源设置"><span class="nav-number">5.</span> <span class="nav-text">Node.js 源设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Hexo-框架"><span class="nav-number">6.</span> <span class="nav-text">安装 Hexo 框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo初始化"><span class="nav-number">7.</span> <span class="nav-text">Hexo初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选用其他主题"><span class="nav-number">8.</span> <span class="nav-text">选用其他主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建-Github-pages-并-SSH-授权"><span class="nav-number">9.</span> <span class="nav-text">创建 Github pages 并 SSH 授权</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#把本地的博客内容同步到-Github-上"><span class="nav-number">10.</span> <span class="nav-text">把本地的博客内容同步到 Github 上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名绑定"><span class="nav-number">11.</span> <span class="nav-text">域名绑定</span></a></li></ol></div>
             
 
           </div>
